@@ -1,0 +1,32 @@
+.modal-open {
+  animation: fade-in 0.3s forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal-title {
+  font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.modal-content {
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+
+.modal-header {
+  background-color: #212121;
+  border-bottom: none;
+}
+
+.btn-close-white {
+  color: #fff;
+}
+
+.btn-close-white:hover {
+  color: #ccc;
+}
